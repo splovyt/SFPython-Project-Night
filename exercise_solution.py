@@ -16,7 +16,7 @@ with open(my_image, 'rb') as file:
 # Show the output
 print('----OUTPUT CAPTIONS----\n')
 for i, x in enumerate(response['predictions']):
-    print(str(i+1)+'.', x['caption']
+    print(str(i+1)+'.', x['caption'])
 
           
 # 2. Extract the caption from the outpout
